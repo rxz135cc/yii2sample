@@ -8,11 +8,11 @@ class_name: AcceptanceTester
 modules:
     enabled:
         - PhpBrowser:
-            url: http://localhost/yii2webApp/backend/web/
+            url: http://localhost/yii2sample/backend/web/
             auth: ['imaprog', 'Takjugak6799^&((']
         - REST:
             depends: PhpBrowser
-            url: 'http://localhost/yii2webApp/backend/web/'
+            url: 'http://localhost/yii2sample/backend/web/'
             part: Json
         - \Helper\Acceptance
 #        - Yii2:
